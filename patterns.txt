@@ -1,0 +1,1 @@
+(ent_type=person|op={2}) run(lemma)
