@@ -20,25 +20,6 @@ pip install spacyex
 - **Integration with spaCy**: Leverage spaCy's Matcher capabilities to find sequences in text that match defined patterns.
 - **Customizable Matching Rules**: Define token attributes including text characteristics, lexical attributes, and grammatical properties.
 
-## Installation
-
-To use `spacyex`, you must first have spaCy installed in your Python environment. If you don't have spaCy installed, you can install it using pip:
-
-```bash
-pip install spacy
-```
-
-Once spaCy is installed, make sure to load an appropriate language model:
-
-```python
-import spacy
-nlp = spacy.load('en_core_web_sm')
-```
-
-## Usage
-
-The `spacyex` library primarily involves two functions: `create_pattern` and `search`.
-
 ### Creating Patterns
 
 Define patterns using a string syntax where each token and its attributes are encapsulated by parentheses. Token attributes are specified by key-value pairs, separated by an equals sign (`=`), and multiple attributes are divided by a pipe (`|`).
