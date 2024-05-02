@@ -16,20 +16,6 @@ pip install spacyex
 
 ## Features
 
-- Create complex matching patterns using a simple syntax.
-- Supports all dictionary properties that are used by spaCy's `Matcher`.
-- Easy integration with existing spaCy pipelines.
-
-Here's a suggested README for your `spacyex` library, which leverages spaCy's Matcher to create patterns based on user-defined syntax for natural language processing tasks.
-
----
-
-# Spacyex Library
-
-`spacyex` is a Python library designed to simplify the creation and application of complex token patterns for matching sequences in texts using spaCy's powerful Matcher tool. This library allows users to define patterns dynamically through a string-based interface that translates into spaCy's Matcher syntax.
-
-## Features
-
 - **Dynamic Pattern Creation**: Create complex token matching patterns using a simple string-based syntax.
 - **Integration with spaCy**: Leverage spaCy's Matcher capabilities to find sequences in text that match defined patterns.
 - **Customizable Matching Rules**: Define token attributes including text characteristics, lexical attributes, and grammatical properties.
