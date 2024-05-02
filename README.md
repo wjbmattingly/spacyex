@@ -20,6 +20,55 @@ pip install spacyex
 - Supports all dictionary properties that are used by spaCy's `Matcher`.
 - Easy integration with existing spaCy pipelines.
 
+Here's a suggested README for your `spacyex` library, which leverages spaCy's Matcher to create patterns based on user-defined syntax for natural language processing tasks.
+
+---
+
+# Spacyex Library
+
+`spacyex` is a Python library designed to simplify the creation and application of complex token patterns for matching sequences in texts using spaCy's powerful Matcher tool. This library allows users to define patterns dynamically through a string-based interface that translates into spaCy's Matcher syntax.
+
+## Features
+
+- **Dynamic Pattern Creation**: Create complex token matching patterns using a simple string-based syntax.
+- **Integration with spaCy**: Leverage spaCy's Matcher capabilities to find sequences in text that match defined patterns.
+- **Customizable Matching Rules**: Define token attributes including text characteristics, lexical attributes, and grammatical properties.
+
+## Installation
+
+To use `spacyex`, you must first have spaCy installed in your Python environment. If you don't have spaCy installed, you can install it using pip:
+
+```bash
+pip install spacy
+```
+
+Once spaCy is installed, make sure to load an appropriate language model:
+
+```python
+import spacy
+nlp = spacy.load('en_core_web_sm')
+```
+
+## Usage
+
+The `spacyex` library primarily involves two functions: `create_pattern` and `search`.
+
+### Creating Patterns
+
+Define patterns using a string syntax where each token and its attributes are encapsulated by parentheses. Token attributes are specified by key-value pairs, separated by an equals sign (`=`), and multiple attributes are divided by a pipe (`|`).
+
+#### Syntax Examples
+
+- **Single Attribute**: `(pos=NOUN)`
+- **Multiple Attributes**: `(pos=NOUN|lemma=run)`
+- **Using List Values**: `(lemma=in[run,walk])`
+- **Using Operators**: `(ent_type=person|op={2,3})`
+
+### Pattern Matching
+
+Once a pattern is defined, it can be used to search text for matches.
+
+
 ## Usage
 
 Here is a simple example to get started with `spaCyEx`:
