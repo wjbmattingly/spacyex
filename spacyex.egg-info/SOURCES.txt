@@ -1,0 +1,8 @@
+README.md
+setup.py
+spacyex/__init__.py
+spacyex.egg-info/PKG-INFO
+spacyex.egg-info/SOURCES.txt
+spacyex.egg-info/dependency_links.txt
+spacyex.egg-info/requires.txt
+spacyex.egg-info/top_level.txt
