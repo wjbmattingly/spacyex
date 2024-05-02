@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='spacyex',
-    version='0.0.1',
+    version='0.0.2',
     author='William J.B. Mattingly',
     description='An extension for spaCy, making pattern matching as flexible as using regular expressions.',
     long_description=open('README.md').read(),
