@@ -3,6 +3,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/wjbmattingly/spacyex.svg?style=social&label=Star&maxAge=2592000)](https://github.com/wjbmattingly/spacyex/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/wjbmattingly/spacyex.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/wjbmattingly/spacyex/network)
 
+![logo](https://github.com/wjbmattingly/spacyex/blob/main/images/spacyex-logo.png?raw=true)
 
 `spaCyEx` is a powerful extension for spaCy, designed to make pattern matching as flexible and easy as using regular expressions. It builds upon the existing capabilities of spaCy's `Matcher`, enhancing it with a more accessible syntax for defining complex patterns. `spaCyEx` allows for intuitive and detailed text pattern specifications, perfect for extracting detailed linguistic features from texts.
 
